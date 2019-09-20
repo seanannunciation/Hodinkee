@@ -1,0 +1,43 @@
+.notify{
+  color: white;
+  background-color: #006a4e;
+  border: 0;
+  font-family: 'brownStd', sans-serif;
+  padding:3px 3px;
+  position:absolute;
+  align-self:right;
+  width:100px;
+  height:30px;
+
+}
+
+.inputtext{
+  border-radius: 2px;
+  border:0;
+  height:50px;
+  margin-top: 10px;
+  /* width:250px; */
+  padding:2px;
+  font-family: 'potraitItalic', sans-serif;
+  /* position:relative; */
+  width:100%;
+
+}
+
+.input{
+  position:absolute;
+  bottom:220px;
+  left:370px;
+  align: center;
+  width:30%;
+}
+
+@font-face {
+  font-family: 'brownStd';
+  src: local('brownStd'), url(./fonts/BrownStd-Regular.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'potraitItalic';
+  src: local('potraitItalic'), url(./fonts/Portrait-MediumItalic.woff) format('woff');
+}

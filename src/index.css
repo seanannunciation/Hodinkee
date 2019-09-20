@@ -1,13 +1,35 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.display {
+  width: 100%;
+  height:100vh;
+  display: block;
+  background-size: cover;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+
+.dateText{
+  position:absolute;
+  top:297px;
+  /* left:430px; */
+  margin-left: 438px;
+  margin-top: 10px;
+  color: green;
+  text-align: center;
+  font-family: 'brownStd',sans-serif;
+}
+
+
+.logo-img{
+  position:absolute;
+  top:257px;
+  left:420px;
+  align-items: center;
+  display:block;
+  margin:0 auto;
+}
+
+
+
+@font-face {
+  font-family: 'brownStd';
+  src: local('brownStd'), url(./fonts/BrownStd-Regular.woff) format('woff');
 }
